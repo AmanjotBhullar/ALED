@@ -30,7 +30,7 @@ The `test.ipynb` file contains sample code to get you started. Call function `cl
 
 The input image will be cropped to multiple 200x200 sub-images (note that padding will be added to the input image so that it is completely divisible by 200x200). Each sub-image is passed through the network for classification, and a corresponding routing path visualization image is produced. The routing path visualization images are stiched together and saved as a .png in directory `asto_package_pics/`, along with the input image.
 
-For each .fits image, a corresponding routing path visualization image will be saved to `astro_package_pics/`. In addition, a text file titled `snle_candidates.txt` will be created. The text file contains the name of each .fits file, and 5 values called `Count1`, `Count2`, `Count3`, `Avg1`, `Avg2`, representing the liklihood of the image containing a light echo.
+For each .fits image, a corresponding routing path visualization image will be saved to `astro_package_pics/`. In addition, a text file titled `snle_candidates.txt` will be created. The text file contains the name of each .fits file, and 5 values called `Count1`, `Count2`, `Count3`, `Avg1`, `Avg2`, representing the liklihood of the image containing a light echo. From experience, if `Count1` is non-zero than the image should be considered a light echo candidate.
 
 * `Count1`: A count of the number of pixels in the routing path visualization image that have a value greater than 0.00042.
 * `Count2`: A count of the number of pixels in the routing path visualization image that have a value greater than 0.00037.
