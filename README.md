@@ -47,3 +47,4 @@ To check if the dependencies have been installed correctly open `test.ipynb` and
 * `snle_candidates.txt`: Will contain the following line `test.fits 375.000000 440.000000 562.000000 0.731215 0.880019`.
 * `astro_package_pics/rpv_test.fits.png`: The routing path visualization image of `test.fits`.
 * `astro_package_pics/snle_test.fits.png`: `test.fits` in .png format
+* `test_c3c2731_22.fits` is an image containing light echoes as opposed to diffraction ring differences (as seen in `test.fits`), and can be tested in the same way as `test.fits`.
